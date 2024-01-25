@@ -20,7 +20,7 @@ print(txt)
 txt = txt.strip()
 print(txt)
 ###############################################################################
-# TODO: 2. (1 pt)
+# DONE: 2. (1 pt)
 #   From now on, do not reassign the variable   txt   . You will be using it as
 #   your starter string for the rest of these exercises.
 #
@@ -32,9 +32,10 @@ print(txt)
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-
+name = (txt[4:9])
+print(name)
 ###############################################################################
-# TODO: 3. (1 pt)
+# DONE: 3. (1 pt)
 #   Let's add another sentence to our string.
 #
 #   Immediately below this _TODO_, write code that:
@@ -47,3 +48,9 @@ print(txt)
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+a = txt
+example = "The lazy dog died of obesity"
+b = example
+d = " "
+c = a + d + b
+print(c)
