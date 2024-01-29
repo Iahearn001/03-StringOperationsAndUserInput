@@ -76,3 +76,8 @@ print("Hello" + " " + username + "! It's nice to meet you!")
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+print(username + " " + "what is your favorite number?")
+answer33 = input("enter number:")
+answer33 = int(answer33)
+print("Integer value:", answer33)
+print(f"{username}, your favorite number is {answer33}. What a great number!")
