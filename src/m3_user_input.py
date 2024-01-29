@@ -33,7 +33,7 @@ username = input("Enter username:")
 print("Username is: " + username)
 print("Hello" + " " + username + "! It's nice to meet you!")
 ###############################################################################
-# TODO: 2. (5 pt)
+# DONE: 2. (5 pt)
 #   Now you might be thinking, why didn't we just use concatenation to do this?
 #   Isn't it just the same thing?
 #
